@@ -41,14 +41,14 @@ if sys.argv[-1] == 'test':
     observation = env.reset()
     env._max_episode_steps = 200;
     for _ in range(500):
-        # env.render()
+        env.render()
         st = q_index(observation,num_buckets)
         action = np.argmax(q_table[st])
         observation, reward, done, info = env.step(action)
         score += reward
         if done:
             break
-    # env.close()
+    env.close()
     print(score)
 
 else:
@@ -86,14 +86,14 @@ else:
     score = 0
     observation = env.reset()
     for _ in range(500):
-        # env.render()
+        env.render()
         st = q_index(observation, num_buckets)
         action = np.argmax(q_table[st])
         observation, reward, done, info = env.step(action)
         score += reward
         if done:
             break
-    # env.close()
+    env.close()
     print('Score=',score)
 
 
