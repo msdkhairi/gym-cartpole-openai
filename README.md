@@ -1,7 +1,7 @@
 # Cartpole
 In this project [Cartpole-v0 challenge](https://gym.openai.com/envs/CartPole-v0/) from OpenAI is solved. The task here is to prevent the pendulum from falling over. "CartPole-v0 defines "solving" as getting average reward of 195.0 over 100 consecutive trials". 
   ![](https://miro.medium.com/max/600/1*Q9gDKBugQeYNxA6ZBei1MQ.png)  
-There are two types of implementations in this project.
+There are two types of implementations in this project. Please note that these implementations are completely independent and there is no relation between them whatsoever.
 
 
 *   A **Q-learning** implementation
