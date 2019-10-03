@@ -11,3 +11,4 @@ In the first implementation Q-learning technique is used. There is a saved q-tab
 **>>> python qlearning.py test** 
 
 The second implementation is a **Deep Q-Network (DQN)** and is implemented in the *Cartpole_DQN.ipynb* notebook. There is also a google colab link in the notebook.
+I have also written a Medium blog post on this that can found [here](https://medium.com/@msdkhairi/openai-cartpole-with-policy-gradient-acc0344f5d72).
